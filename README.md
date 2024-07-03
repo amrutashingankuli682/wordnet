@@ -71,14 +71,4 @@ This web application built with Flask allows users to find synonyms and antonyms
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
-```
-
-### Notes:
-- Replace `your-username` in the clone URL with your actual GitHub username.
-- This README provides basic instructions for installation, usage, and contributing.
-- Make sure to include any additional details specific to your application or setup.
-
-Once you have set up your project on GitHub and pushed your code, GitHub will automatically render the README.md file on the repository's main page, making it easy for visitors to understand your project and get started with it.
