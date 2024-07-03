@@ -1,5 +1,3 @@
-Certainly! Below is an example of how you can structure your project on GitHub with a README.md file to explain its purpose and usage.
-
 ### Project Structure
 
 ```
