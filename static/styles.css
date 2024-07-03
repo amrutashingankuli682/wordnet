@@ -1,0 +1,76 @@
+/* Ensure the body takes the full height of the viewport */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eed0d0;
+  color: #3c0303;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Center the container within the body */
+.container {
+  background: #eaa8b5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 600px; /* Adjusted width for both columns */
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3c0303;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5b403f;
+}
+
+#results {
+  display: flex;
+  justify-content: space-around; /* Adjusted spacing */
+}
+
+.result-column {
+  flex: 1; /* Equal width for both columns */
+  margin: 0 10px; /* Adjusted margin for spacing */
+}
+
+#results h2 {
+  margin-top: 20px;
+}
+
+#results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#results li {
+  background: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synonyms and Antonyms Finder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Synonyms and Antonyms Finder</h1>
+        <form id="wordForm">
+            <input type="text" id="wordInput" placeholder="Enter a word" required>
+            <button type="submit">Find</button>
+        </form>
+        <div id="results">
+            <div class="result-column">
+                <h2>Synonyms</h2>
+                <ul id="synonymsList"></ul>
+            </div>
+            <div class="result-column">
+                <h2>Antonyms</h2>
+                <ul id="antonymsList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
